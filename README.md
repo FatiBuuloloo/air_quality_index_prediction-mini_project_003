@@ -15,7 +15,7 @@ This project provides a comprehensive analysis of the Air Quality Index (ISPU) i
 ![Cluster](Image/Cluster.png)
 
 
-## 📊 Pollution Clusters
+## 🌫️ Pollution Clusters
 Through the clustering analysis (validated with a **DB Score of 0.53795** and **CH Score of 8511.80175**) outperforming **KMeans** which has poor performance. The model has identified 5 unique pollution profiles in Jakarta:
 ![Pollution Clusters Analysis (Radar Chart)](Image/Radar%20Chart.png)
 1. **The Fossil-Fuel Combustion Zone:** High level of $SO_2$ and $NO_2$ which produced through the combustion of fossil fuels,such as coal and petroleum, as well as industrial processes.
@@ -29,7 +29,7 @@ Through the clustering analysis (validated with a **DB Score of 0.53795** and **
 - **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Plotly, umap
 - **Models:** KMeans, Gaussian Mixture Model (GMM), Random Forest, Support Vectore Machine (SVM), K Nearest Neighbors (KNN), XGBoost, and Naive Bayes
 
-## 📉 Classification Performance
+## 🎯 Classification Performance
 Among the 5 models, the SVM has outperform the others. Random Forest, KNN, and XGBoost has overfitting and the Naive Bayes has underfitting performance. The classification of SVM model achieved a robust performance:
 - **Average Accuracy:** ~94% (via Stratified CV)
 - **Macro Average F1-Score:** 0.89
