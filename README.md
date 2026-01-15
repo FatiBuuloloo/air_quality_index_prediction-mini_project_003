@@ -1,7 +1,7 @@
 # Assessment of Jakarta’s Air Pollution Profiles through Hybrid Clustering-Classification Models-mini_project_003
 
 ## 📌 Project Overview
-This project provides a comprehensive analysis of the Air Quality Index (ISPU) in Jakarta, Indonesia. The project integrates Unsupervised and Supervised Learning to identify distinct pollution characteristic across various monitoring stations and build a robust model to cluster and classify air quality levels.
+This project provides a comprehensive analysis of the Air Quality Index (ISPU) in Jakarta, Indonesia.The data can be access via this link: https://satudata.jakarta.go.id/open-data/detail?kategori=dataset&page_url=data-indeks-standar-pencemar-udara-ispu-di-provinsi-dki-jakarta&data_no=1. The project integrates Unsupervised and Supervised Learning to identify distinct pollution characteristic across various monitoring stations and build a robust model to cluster and classify air quality levels.
 
 ## 🚀 Key Features
 - **Advanced Preprocessing:** Implementation of **Yeo-Johnson Transformation** to handle skewed data, followed by **UMAP (Uniform Manifold Approximation and Projection)** to reduce the dimensionality of the data.
